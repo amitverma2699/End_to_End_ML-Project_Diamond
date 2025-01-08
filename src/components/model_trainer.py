@@ -6,7 +6,7 @@ from dataclasses import dataclass
 import os
 import sys
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
-from src.utils.utiles import save_object, evaluate_model
+from src.utils.utils import save_object, evaluate_model
 
 @dataclass
 class ModelTrainerConfig:

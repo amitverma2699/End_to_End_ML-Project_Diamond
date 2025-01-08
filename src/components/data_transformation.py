@@ -7,7 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OrdinalEncoder
-from src.utils.utiles import save_object
+from src.utils.utils import save_object
 from dataclasses import dataclass
 from pathlib import Path
 import os
