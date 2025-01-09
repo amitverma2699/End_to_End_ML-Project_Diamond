@@ -29,7 +29,7 @@ def predict_datapoint():
         prediction=PredictPipeline()
         pred=prediction.predict(final_data)
         result=round(pred[0],2)
-        return render_template("result.html",result=result)
+        return render_template("result.html",final_result=result)
     
 
 if __name__ == "__main__":
