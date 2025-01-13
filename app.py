@@ -26,11 +26,15 @@ def predict_datapoint():
         )
         
         final_data=data.get_data_as_dataframe()
+        
         prediction=PredictPipeline()
+        
         pred=prediction.predict(final_data)
+
         result=round(pred[0],2)
+
         return render_template("result.html",final_result=result)
     
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",port=8080)
