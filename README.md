@@ -9,7 +9,7 @@ This project aims to build an **end-to-end machine learning model** to predict d
 - Data Preprocessing & Cleaning
 - Exploratory Data Analysis (EDA)
 - Feature Engineering & Selection
-- Model Training & Hyperparameter Tuning
+- Model Training
 - Model Deployment using Flask/FastAPI
 - CI/CD Integration for Automated Workflow
 
@@ -60,13 +60,13 @@ The API will be available at `http://127.0.0.1:5000/` (if using Flask).
 
 ## 🤖 Models Used
 - Linear Regression
-- Random Forest Regressor
-- Gradient Boosting Machines (GBM)
-- Hyperparameter tuning using GridSearchCV
+- Lasso
+- Ridge
+- Elasticnet
 
 ## 🔍 Results & Performance
-- **Best Model:** Random Forest Regressor
-- **R² Score:** 0.97 on test data
+- **Best Model:** Linear Regression
+- **R² Score:** 0.80+ on test data
 
 ## 🌐 Deployment
 - Deployed using **Flask/FastAPI**
